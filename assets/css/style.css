@@ -132,3 +132,55 @@
     cursor: pointer;
 }
 }
+
+@media screen and (max-width: 568px) {
+        /* The first button */
+.middle-btn {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: background-color 0.7s;
+    margin: 0;
+    position: absolute;
+    top: 64%;
+    margin-left: 0.5em;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+}
+.middle-btn:hover {
+    background-color: #fff;
+    color: #101010;
+    box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+}
+
+/* The Secon Button*/
+
+.middle-btn-two {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: background-color 0.7s;
+    margin: 0;
+    position: absolute;
+    top: 64%;
+    margin-left: 10em;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+}
+
+.middle-btn-two:hover {
+    background-color: #fff;
+    color: #101010;
+    box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+}
+}
